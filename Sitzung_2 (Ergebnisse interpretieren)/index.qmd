@@ -1,0 +1,62 @@
+---
+title: Title title
+subtitle: Subtitle subtitle subtitle
+author: Samuel Merk
+footer: Pädagogische Hochschule Karlsruhe
+institute: Institut für Schul- und Unterrichtsentwicklung
+logo: ../img/ph-logo.svg
+picture: ../img/KA.jpeg
+date: today
+lang: de
+date-format: long
+embed-resources: true
+format: rlille-revealjs
+lightbox: true
+bibliography: ../references.bib
+csl: ../apa.csl
+---
+
+## Überblick {.smaller .center}
+
+```{r }
+#| label: libraries
+#| echo: false
+
+# z.B. library(tidyverse)
+```
+
+| {{< iconify fa-solid:school >}} | Agenda 1 |
+|-----------------:|:-----------------------------------------------------|
+| {{< iconify fa-solid:comments >}} | Agenda 2 |
+| {{< iconify fa-solid:comments >}} | Agenda 3 |                                                                                                                        |
+
+: {#tbl-agenda tbl-colwidths="\[15,285\]"}
+
+```{=html}
+<!-- style the agenda table -->
+
+<style>
+#tbl-agenda table th {
+font-weight: normal !important;
+border: none !important;
+}
+
+#tbl-agenda table td {
+font-weight: normal !important;
+border: none !important;
+}
+</style>
+```
+::: footer
+{{< iconify academicons:open-materials >}} Folien cc-by {{< iconify academicons:creative-commons-by >}} unter Kurzlink
+:::
+
+
+
+## Agenda 1 {{< iconify fluent-emoji-high-contrast:newspaper >}} {.smaller}
+
+* Always think about the confirmation bias [@nickerson1998]
+
+## References {.scrollable}
+
+
