@@ -1,6 +1,6 @@
 ---
 title: Pädagogische Diagnostik, Förderung & Beratung
-subtitle: Sitzung 1 - Einführung
+subtitle: Sitzung 0 - Einführung
 author: Gleser/Lunowa/Merk/Prinz
 footer: Samuel Merk
 institute: Institut für Schul- und Unterrichtsentwicklung
@@ -13,8 +13,6 @@ format: rlille-revealjs
 lightbox: true
 bibliography: ../references.bib
 csl: ../apa.csl
-filters:
-  - shinylive
 ---
 
 ## Überblick {.smaller .center}
