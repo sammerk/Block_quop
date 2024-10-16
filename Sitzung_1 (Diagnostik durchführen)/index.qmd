@@ -109,13 +109,16 @@ Ordnen Sie die folgenden Anliegen einer geeigneten Form von Diagnostik zu:
 > Bitte bearbeiten Sie (digital oder analog) die ausgeteilten Testhefte.
 
 ## Das Modell hinter dem ELFE
-@lenhard2019 gehen für die Konstruktion des ELFE von foglendem Prozessmodell des Leseverstehens aus:
-![](img/Leseverstehensprozesse.jpg){.lightbox fig-width="60%"}
+Lesen Sie das 
+@lenhard2019 gehen für die Konstruktion des ELFE von folgendem Prozessmodell des Leseverstehens aus:
+
+![](img/Leseverstehensprozesse.jpg){width="40%" fig-align="center" .lightbox }
+
 
 # Exkurs: Praktische Theorie {{< iconify fa-solid:square-root-variable >}}  
 ## »Praktische« Theorie {.smaller .scrollable}
 
-![](img/LesekompModelle.png){.lightbox width="35%" fig-align="center"}
+![](img/LesekompModelle.png){.lightbox width="60%" fig-align="center"}
 
 . . .
 
