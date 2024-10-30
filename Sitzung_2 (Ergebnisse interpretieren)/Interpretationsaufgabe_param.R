@@ -3,7 +3,7 @@ library(tidyverse)
 
 # Definiton der Parameter ######################################################
 ## AV #####
-AV <- sample(c("Lesegenauigkeit",
+AV_Label <- sample(c("Lesegenauigkeit",
                "Lesegeschwindigkeit",
                "Leseverständnis"),
              1)
@@ -22,10 +22,7 @@ Intervention <- sample(c("Intervention wurde durchgeführt",
                        1)
 
 ## Messzeitpunkt ####
-if(Intervention == "Keine Intervention")
-    Messzeitpunkt <- 1:sample(5:9,1)
-if(Intervention != "Keine Intervention")
-    Messzeitpunkt <- 1:sample(9:12,1)
+Messzeitpunkt <- 1:sample(c(6,8,10),1)
 
 ## Interventionsdauer ##### 
 Interventionsdauer <- sample(3:(max(Messzeitpunkt) - 1), 1)
@@ -41,14 +38,6 @@ Normalbereich_entwicklung_quant <-
     case_when(Normalbereich_entwicklung_qual == "langsam" ~ .5,
               Normalbereich_entwicklung_qual == "mittel" ~ 2.5,
               Normalbereich_entwicklung_qual == "schnell" ~ 5)
-
-Normalbereich_weite_qual <- sample(c("mittel",
-                                     "weit"), 1)
-Normalbereich_weite_quant <-
-    case_when(
-        Normalbereich_weite_qual == "mittel" ~ 2,
-        Normalbereich_weite_qual == "weit" ~ 3
-    )
 
 ## Individuum ####
 Start_ind <- sample(c("unterdurchschnittlich außerhalb",
@@ -68,19 +57,21 @@ Entwicklung_ind <-
              "zuerst unterdurchschnittlich dann unterdurchschnittlich"), 1)
 
 # Daten generieren #############################################################
+
 ## Normalbereich ####
 # Vektor initialisieren
-Normalbereich_lowerlimit <- numeric(max(Messzeitpunkt))
+Normalbereich_lowerlimit <- 
+  numeric(max(Messzeitpunkt)) # generates empty numeric vec of length = max(x)
 
 # Vektor füllen
 for(i in 1:max(Messzeitpunkt)){
  if(i == 1){
      Normalbereich_lowerlimit[1] <- 
-      case_when(AV == "Lesegenauigkeit" ~ 
+      case_when(AV_Label == "Lesegenauigkeit" ~ 
                     sample(4:18, 1),
-                AV == "Lesegeschwindigkeit" ~ 
+                AV_Label == "Lesegeschwindigkeit" ~ 
                     sample(10:70, 1),
-                AV == "Leseverständnis" ~ 
+                AV_Label == "Leseverständnis" ~ 
                     sample(4:8, 1))
  }else{
      Normalbereich_lowerlimit[i] <- 
@@ -96,23 +87,29 @@ Data_Normalbereich <-
         Messzeitpunkt = c(Messzeitpunkt, rev(Messzeitpunkt)),
         AV = c(Normalbereich_lowerlimit,
                                  rev(Normalbereich_lowerlimit + 
-                                 min(Normalbereich_lowerlimit) * 
-                                 Normalbereich_weite_quant * 1)))
+                                 min(Normalbereich_lowerlimit)))) %>%
+    mutate(Limit = c(rep("lower limit", n()/2),
+                     rep("upper limit", n()/2)))
+
+
 
 Weite_Normalbereich_empirisch <- 
     Data_Normalbereich$AV[max(Messzeitpunkt)*2] -    
     Data_Normalbereich$AV[1]
     
-# Daten Individuum generieren ####
+# Daten Individuum generieren ##################################################
 Daten_Individuum <- 
     tibble(
         Messzeitpunkt = Messzeitpunkt,
-        AV = numeric(length(Messzeitpunkt))
+        AV1 = numeric(length(Messzeitpunkt)), # initialize empty vectors
+        AV2 = numeric(length(Messzeitpunkt)), 
+        AV3 = numeric(length(Messzeitpunkt)), 
+        AV4 = numeric(length(Messzeitpunkt)), 
     )
 
-# Verlauf innerhalb Normalbereich
+### Konstante Geschw; Verlauf innerhalb Normalbereich ##########################
 for(i in 1:max(Messzeitpunkt)){
-    Daten_Individuum$AV[i] <- 
+    Daten_Individuum$AV1[i] <- 
         Data_Normalbereich %>% 
           filter(Messzeitpunkt == i) %>% 
           pull(AV) %>% 
@@ -122,6 +119,13 @@ for(i in 1:max(Messzeitpunkt)){
           + sample(-Weite_Normalbereich_empirisch:Weite_Normalbereich_empirisch/8)
 }
 
+# Korrektur erster/letzter Messzeitpunkt in Normalbereich
+Daten_Individuum[Daten_Individuum$Messzeitpunkt == 1,]$AV1 <- 
+    min(Data_Normalbereich[Data_Normalbereich$Messzeitpunkt == 1,]$AV) +
+    Weite_Normalbereich_empirisch*.05
+Daten_Individuum[Daten_Individuum$Messzeitpunkt == max(Messzeitpunkt),]$AV1 <- 
+    max(Data_Normalbereich[Data_Normalbereich$Messzeitpunkt == max(Messzeitpunkt),]$AV) -
+    Weite_Normalbereich_empirisch*.05
 
 
 # Daten Plotten ####
@@ -130,6 +134,7 @@ ggplot() +
     geom_polygon(data = Data_Normalbereich, 
                  aes(Messzeitpunkt, AV),
                  fill = "#11111130") +
-    geom_point(data = Daten_Individuum, aes(Messzeitpunkt, AV)) +
-    labs(caption = paste("Entw.:", Normalbereich_entwicklung_qual, "Weite:", Normalbereich_weite_qual)) +
+    geom_point(data = Daten_Individuum, aes(Messzeitpunkt, AV1)) +
+    labs(caption = paste("Norm_entw:", Normalbereich_entwicklung_qual,
+                         "Ind_entw:", Entwicklung_ind)) +
     expand_limits(y=0)
