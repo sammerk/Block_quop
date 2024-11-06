@@ -6,13 +6,12 @@
 <script src="index_files/libs/quarto-html/tippy.umd.min.js"></script>
 <link href="index_files/libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="index_files/libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="index_files/libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="index_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="index_files/libs/quarto-html/quarto-syntax-highlighting-5c6c0ad7bdfb89369003da8042cd4f02.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="index_files/libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
 <script src="index_files/libs/quarto-contrib/glightbox/glightbox.min.js"></script>
 <link href="index_files/libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
 <link href="index_files/libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.30">
+  <meta name="generator" content="quarto-1.6.32">
 
   <meta name="author" content="Gleser/Lunowa/Merk/Prinz">
   <title>Pädagogische Diagnostik, Förderung &amp; Beratung</title>
@@ -33,28 +32,8 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for citations */
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
-      margin-bottom: 0em;
-    }
-    .hanging-indent div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
-    }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
-    }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }  </style>
-  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto.css">
+  </style>
+  <link rel="stylesheet" href="index_files/libs/revealjs/dist/theme/quarto-e14646edf0405a5fce948bea513dad9e.css">
   <link href="index_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="index_files/libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -356,21 +335,22 @@
     </div>
     <div class="column" style="width: 65%; text-align: center;">
       <h2 class="title">Pädagogische Diagnostik, Förderung &amp; Beratung</h2>
-            <p class="subtitle">Sitzung 2 - Leseverlaufsdiagnostiken auswerten</p>
+            <p class="subtitle">Sitzung 3 - Diagnosegeleitete Leseförderung</p>
                   <p class="author">Gleser/Lunowa/Merk/Prinz</p>
                   <p class="institute">Institut für Schul- und Unterrichtsentwicklung</p>
-                  <p class="date">30. Oktober 2024</p>
+                  <p class="date">6. November 2024</p>
           </div>
   </div>
 </section>
 <section id="überblick" class="slide level2 smaller center">
 <h2>Überblick</h2>
-<div id="tbl-agenda" class="quarto-float" data-tbl-colwidths="[15,285]">
+<div id="tbl-agenda" class="quarto-float quarto-figure quarto-figure-center" data-tbl-colwidths="[15,285]">
 <figure class="quarto-float quarto-float-tbl">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl quarto-uncaptioned" id="tbl-agenda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabelle&nbsp;1
 </figcaption>
 <div aria-describedby="tbl-agenda-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 5%">
 <col style="width: 95%">
@@ -388,11 +368,11 @@
 </tr>
 <tr class="even">
 <td style="text-align: right;"><p><iconify-icon inline="" icon="fa-solid:chart-line" aria-label="Icon chart-line from fa-solid Iconify.design set." title="Icon chart-line from fa-solid Iconify.design set."></iconify-icon></p></td>
-<td style="text-align: left;">Lernverläufe interpretieren</td>
+<td style="text-align: left;">Gruppenpuzzle: Lesesportler</td>
 </tr>
 <tr class="odd">
-<td style="text-align: right;"><p><iconify-icon inline="" icon="fa-solid:chart-area" aria-label="Icon chart-area from fa-solid Iconify.design set." title="Icon chart-area from fa-solid Iconify.design set."></iconify-icon></p></td>
-<td style="text-align: left;">Perzentilbänder interpretieren</td>
+<td style="text-align: right;"><p><iconify-icon inline="" icon="line-md:gauge-loop" aria-label="Icon gauge-loop from line-md Iconify.design set." title="Icon gauge-loop from line-md Iconify.design set."></iconify-icon></p></td>
+<td style="text-align: left;">Schnellevaluation</td>
 </tr>
 </tbody>
 </table>
@@ -411,135 +391,104 @@ border: none !important;
 font-weight: normal !important;
 border: none !important;
 }
+
+#tbl-agenda .quarto-float-caption {
+  display: none !important;  
 </style>
 </section>
 <section id="organisatorisches" class="slide level2 smaller">
 <h2>Organisatorisches <iconify-icon inline="" icon="fa6-solid:diagram-project" aria-label="Icon diagram-project from fa6-solid Iconify.design set." title="Icon diagram-project from fa6-solid Iconify.design set."></iconify-icon></h2>
 <ul>
-<li>Studienleistung: Beispiel wird heute am Ende der Sitzung gegeben</li>
-<li>Modulleistung:
-<ul>
-<li>Seminarweite Einigung: ca. 10 Seiten</li>
-<li>Themen bei mir:
+<li>Studienleistung: <em>Sie führen seit einem Schuljahr mit Ihrer zweiten Klasse Lernverlaufsdiagnostik zur Lesegenauigkeit, Leseflüssigkeit und zum Leseverständnis durch. Die Folgenden Abbildungen zeigen die längsschnittlichen Ergebniss der Klasse. <strong>Beschreiben</strong> und <strong>bewerten</strong> Sie die Ergebnisse und machen Sie evidenzbasierte Vorschläge zur differenzierten Leseförderung.</em></li>
+<li>Modulleistung (Hausarbeit ca. 10 Seiten)
 <ul>
 <li>Vergleich von Lernverlaufsdiagnostiksystemen (quop, Lernlinie, Levuumi, CoFormat, etc.)</li>
 <li>Systematische Review zur Wirksamkeit von Lernverlaufsdiagnostik, Formativem Assessment etc.</li>
 <li>Herzensthemen 💓 rund um den Themenbereich Assessment (Paradoxe Effekte von Lob und Tadel, Bezugsnormen und Motivation, Ziffernnoten, Noteninflation, etc.)</li>
 </ul></li>
-</ul></li>
 </ul>
-</section>
-<section id="lernverläufe-interpretieren" class="slide level2 center smaller">
-<h2>Lernverläufe interpretieren</h2>
 <blockquote>
-<p><strong>Wie würden Sie diese beiden fiktiven Lernverläufe (Leseflüssigkeit) interpretieren?</strong><br>
-Think-Pair-Share 🧠-🧑‍🤝‍🧑-💬 mit dem:der Sitznachbar:in</p>
+<p>Wieviele wollen denn die Studienleistung machen? Aufgabenstellung kommt im Laufe der Woche.</p>
 </blockquote>
+</section>
+<section id="wdh.-leselernverläufe-interpretieren" class="slide level2 center smaller">
+<h2>Wdh. Leselernverläufe interpretieren</h2>
+<blockquote>
+<p><strong>Wie würden Sie diesen Leselernverläufe interpretieren? Welche Leseteilkompetenz sollte gezielt gefördert werden?</strong></p>
+</blockquote>
+<p>Lerntempoduett 🐌🐌/🚀🚀: Notieren Sie Ihre Interpretation und Ihren Fördervorschlag auf dem ausgeteilten Zettel und kommen Sie damit nach vorne, sobald Sie fertig sind. Tauschen Sie sich dann mit dem als nächstes nach vorne kommenden dazu aus.</p>
+<div style="text-align:center;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><a href="img/Verlauf_ohne.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Zwei fiktive Verläufe der Leseflüssigkeit"><img data-src="img/Verlauf_ohne.png" alt="Zwei fiktive Verläufe der Leseflüssigkeit"></a></p>
-<figcaption>Zwei fiktive Verläufe der Leseflüssigkeit</figcaption>
+<p><a href="img/Wdh.%20Sitzung%203.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Lesegenauigkeits- &amp; Leseverständnisverlauf mit 68% Perzentilband"><img data-src="img/Wdh.%20Sitzung%203.png" style="width:40.0%" alt="Lesegenauigkeits- &amp; Leseverständnisverlauf mit 68% Perzentilband"></a></p>
+<figcaption>Lesegenauigkeits- &amp; Leseverständnisverlauf mit 68% Perzentilband</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="diagnosegeleitete-leseförderung-mit-den-lesesportlern" class="slide level2 smaller">
+<h2>Diagnosegeleitete Leseförderung mit den Lesesportlern</h2>
+<h5 id="ohne-proprietäre-lesediagnostik-quop">Ohne proprietäre Lesediagnostik quop</h5>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><a href="img/Überblick%20Lesesportler%20ohne%20quop.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="img/Überblick%20Lesesportler%20ohne%20quop.png" class="quarto-figure quarto-figure-left" style="width:20.0%"></a></p>
+</figure>
+</div>
+<h5 id="mit-proprietärer-lesediagnostik-quop">Mit proprietärer Lesediagnostik quop</h5>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<div class="quarto-figure quarto-figure-left">
+<figure>
+<p><a href="img/Überblick%20Lesesportler%20mit%20quop.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Abbildungen cc-by AE Diagnostik und Evaluation Universität Münster"><img data-src="img/Überblick%20Lesesportler%20mit%20quop.png" class="quarto-figure quarto-figure-left" style="width:20.0%" alt="Abbildungen cc-by AE Diagnostik und Evaluation Universität Münster"></a></p>
+</figure>
+</div>
+<figcaption>Abbildungen cc-by AE Diagnostik und Evaluation Universität Münster</figcaption>
 </figure>
 </div>
 </section>
-<section id="lernverläufe-interpretieren-1" class="slide level2 center smaller">
-<h2>Lernverläufe interpretieren</h2>
-<blockquote>
-<p><strong>Wie würden Sie diese beiden fiktiven Lernverläufe (Leseflüssigkeit) interpretieren?</strong><br>
-Think-Pair-Share 🧠-🧑‍🤝‍🧑-💬 mit dem:der Sitznachbar:in</p>
-</blockquote>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><a href="img/Verlauf_mit.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Zwei fiktive Verläufe der Leseflüssigkeit"><img data-src="img/Verlauf_mit.png" alt="Zwei fiktive Verläufe der Leseflüssigkeit"></a></p>
-<figcaption>Zwei fiktive Verläufe der Leseflüssigkeit</figcaption>
-</figure>
-</div>
-</section>
-<section id="lernverläufe-interpretieren-2" class="slide level2 smaller">
-<h2>Lernverläufe interpretieren</h2>
-<blockquote>
-<p>Um einen Lernverlauf als »stagnierend«, »schwach sinkend«, »stark steigend« etc. <strong>bewerten</strong> zu können ist ein Bezugsrahmen/Bezugspunkt notwendig</p>
-</blockquote>
+<section id="gruppenpuzzle-lesesportler" class="slide level2 smaller">
+<h2>Gruppenpuzzle: Lesesportler</h2>
+<h4 id="expertinnenphase-zu-dritt-20-minuten">Expert:innenphase (zu Dritt, 20 Minuten)</h4>
 <ul>
-<li>Zunächst ist es bei kardinalskalierten Variablen <span class="citation" data-cites="mittag2017">(intervallskalierte Variablen mit »natürlichem Nullpunkt«, <a href="#/references" role="doc-biblioref" onclick="">Mittag, 2017</a>)</span> naheliegend, die 0 (0 richtig gelesene Wörter, 0 richtig beantwortete Fragen als Referenzpunkt zu wählen.</li>
-<li>Die Interpretierbarkeit von Unterschieden (z.B. 5 richtig gelesene Wörter mehr) macht dann aber eine konstante Aufgabenschwierigkeit notwendig.</li>
-<li>Ein weiterer beliebter Bezugsrahmen sind sogenannte Perzentilbänder <span class="citation" data-cites="kohler2015">(<a href="#/references" role="doc-biblioref" onclick="">Kohler, 2015</a>)</span>.
+<li>Sichten Sie das Onlinematerial zu Ihrem Lesesport (Slalom 🛼/Sprint 🏃🏻‍♀️/Kanu 🛶)</li>
+<li>Klären Sie offene Fragen dazu mit den Kommiliton:innen/dem Dozenten</li>
+<li>Bereiten Sie sich darauf vor,
 <ul>
-<li>Sie beschreiben den Bereich der inneren X% einer Variable (z.B. das »Mittelfeld«, wenn X = 50)</li>
-<li>So kann ein individueller Verlauf (individuelle Bezugsnorm) mit dem typischen Verlauf verglichen werden (soziale Bezugsnorm)</li>
+<li>mit Ihrer Stammgruppe zunächst Ihre Leseportart zu trainieren und</li>
+<li>Ihrer Stammgruppe dann auf einer Metaebene die Besonderheiten Ihres Lesesports zu erklären</li>
 </ul></li>
 </ul>
+<h4 id="stammgruppenphase-20-minuten">Stammgruppenphase (20 Minuten)</h4>
+<ul>
+<li>Jede:r Expert:in trainiert die Stammgruppe in seiner:ihrer Leseportart</li>
+<li>Jede:r Expert:in erklärt der Stammgruppe auf einer Metaebene die Besonderheiten Ihres Lesesports</li>
+</ul>
 </section>
-<section id="lernverläufe-interpretieren-3" class="slide level2 smaller">
-<h2>Lernverläufe interpretieren</h2>
-<p>Mit Perzentilbändern können <strong>Verläufe</strong></p>
-<div class="columns">
-<div class="column" style="width:50%;">
-<ol type="1">
-<li><em><span style="color:#099268">unabhängig von</span> <span style="color:#f08c00">der absoluten Ausprägung</span></em> als »über-/unterdurchschnittlich« identifiziert werden</li>
-</ol>
-</div><div class="column" style="width:50%;">
-<ol start="2" type="1">
-<li><em><span style="color:#1971c2">unabhängig von</span> <span style="color:#099268">der Skala</span></em> absolut und in ihrer Entwicklung verglichen werden</li>
-</ol>
-</div>
-</div>
-<center>
-<a href="img/Verlaeufe_Perzentile.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="img/Verlaeufe_Perzentile.png" style="width:60.0%"></a>
-</center>
-</section>
-<section id="skizzieren-sie" class="slide level2 smaller">
-<h2>Skizzieren Sie …</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>… ein Perzentilband für die Diagnostik der Leseflüssigkeit mit konstanter Breite, das nicht steigt und einen überdurchschnittlichen Lernverlauf einer Schülerin die eine unterdurchschnittliche Ausgangssituation aufweist.</p>
-</div><div class="column" style="width:50%;">
-<p>… ein Perzentilband für die Diagnostik der Leseflüssigkeit mit zunehemender Breite, das deutlich steigt einen unterdurchschnittlichen Lernverlauf einer Schülerin die eine überdurchschnittliche Ausgangs- und Endsituation aufweist.</p>
-</div>
+<section id="schnellevaluation" class="slide level2 smaller">
+<h2>Schnellevaluation</h2>
+<div>
+<ul>
+<li class="fragment">Hatten Sie den Eindruck, dass die drei Sitzungen aufeinander aufgebaut haben/gut zusammenhingen?</li>
+<li class="fragment">Kam Ihnen die Gruppenpuzzle-Methode entgegen?</li>
+<li class="fragment">Lohnt es sich, kleine Wiederholungsmethoden wie den Tandembogen oder das Lerntempoduett einzubauen?</li>
+<li class="fragment">Wie langweilig waren die Sitzungen?</li>
+<li class="fragment">Wie komplex war der Inhalt?</li>
+<li class="fragment">Wie gut konnten Sie sich auf die Inhalte einlassen?</li>
+<li class="fragment">🖐🏼</li>
+</ul>
 </div>
 </section>
-<section id="skizzieren-sie-1" class="slide level2 smaller">
-<h2>Skizzieren Sie …</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p>… ein Perzentilband für die Diagnostik der Leseflüssigkeit mit konstanter Breite, das nicht steigt und einen überdurchschnittlichen Lernverlauf einer Schülerin die eine unterdurchschnittliche Ausgangssituation aufweist.</p>
-<center>
-<a href="img/Skizzieren%20Sie%201.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="img/Skizzieren%20Sie%201.png" style="width:60.0%"></a>
-</center>
-</div><div class="column" style="width:50%;">
-<p>… ein Perzentilband für die Diagnostik der Leseflüssigkeit mit zunehemender Breite, das deutlich steigt einen unterdurchschnittlichen Lernverlauf einer Schülerin die eine überdurchschnittliche Ausgangs- und Endsituation aufweist.</p>
-<center>
-<a href="img/Skizzieren%20Sie%202.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5"><img data-src="img/Skizzieren%20Sie%202.png" style="width:60.0%"></a>
-</center>
-</div>
-</div>
-</section>
-<section id="studienleistung" class="slide level2">
-<h2>Studienleistung</h2>
-<p>Der Arbeitsauftrag für eine Studienleistung könnte wie folgt aussehen:</p>
-<blockquote>
-<p>Sie führen seit einem Schuljahr mit Ihrer zweiten Klasse Lernverlaufsdiagnostik zur Lesegenauigkeit, Leseflüssigkeit und zum Leseverständnis durch. Die Folgenden Abbildungen zeigen die längsschnittlichen Ergebniss der Klasse. <strong>Beschreiben</strong> und <strong>bewerten</strong> Sie die Ergebnisse und machen Sie evidenzbasierte Vorschläge zur differenzierten Leseförderung.</p>
-</blockquote>
-</section>
-<section id="references" class="slide level2 scrollable smaller">
+<section id="references" class="slide level2 scrollable">
 <h2>References</h2>
-<div class="quarto-auto-generated-content">
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="img/ph-logo.svg" class="slide-logo"></p>
 <div class="footer footer-default">
 <p>Samuel Merk</p>
 </div>
-</div>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-kohler2015" class="csl-entry" role="listitem">
-Kohler, U. (2015). <span>Perzentilband</span>. In <em><span>Methoden-Lexikon f<span>ü</span>r die Sozialwissenschaften</span></em> (S. 308–309). Springer. <a href="https://doi.org/10.1007/978-3-531-18889-8_16">https://doi.org/10.1007/978-3-531-18889-8_16</a>
-</div>
-<div id="ref-mittag2017" class="csl-entry" role="listitem">
-Mittag, H.-J. (2017). <em>Statistik</em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-55321-3">https://doi.org/10.1007/978-3-662-55321-3</a>
-</div>
-</div>
-</section>
-    </div>
-  </div>
+</div></div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="index_files/libs/revealjs/dist/reveal.js"></script>
@@ -568,7 +517,8 @@ Mittag, H.-J. (2017). <em>Statistik</em>. Springer Berlin Heidelberg. <a href="h
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'smaller': false,
  
         // Display controls in the bottom right corner
@@ -722,7 +672,7 @@ Mittag, H.-J. (2017). <em>Statistik</em>. Springer Berlin Heidelberg. <a href="h
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -973,30 +923,37 @@ Mittag, H.-J. (2017). <em>Statistik</em>. Springer Berlin Heidelberg. <a href="h
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","openEffect":"zoom","closeEffect":"zoom","loop":false,"selector":".lightbox"});
-    window.onload = () => {
-      lightboxQuarto.on('slide_before_load', (data) => {
-        const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-        const href = trigger.getAttribute('href');
-        if (href !== null) {
-          const imgEl = window.document.querySelector(`a[href="${href}"] img`);
-          if (imgEl !== null) {
-            const srcAttr = imgEl.getAttribute("src");
-            if (srcAttr && srcAttr.startsWith("data:")) {
-              slideConfig.href = srcAttr;
-            }
-          }
-        } 
-      });
-
-      lightboxQuarto.on('slide_after_load', (data) => {
-        const { slideIndex, slideNode, slideConfig, player, trigger } = data;
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(slideNode);
+    <script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
         }
-      });
-
-    };
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
               </script>
     
 
