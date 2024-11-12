@@ -45,6 +45,9 @@ border: none !important;
 font-weight: normal !important;
 border: none !important;
 }
+
+#tbl-agenda .quarto-float-caption {
+  display: none !important;  
 </style>
 ```
 

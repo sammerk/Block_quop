@@ -26,8 +26,9 @@ csl: ../apa.csl
 # z.B. library(tidyverse)
 ```
 
-| {{< iconify fa6-solid:heart-pulse >}} | Leseprozess erleben |
+| {{< iconify fa6-solid:stethoscope >}} | Intuitive Diagnostik|
 |------------------------------------------:|:--------------------------|
+| {{< iconify fa6-solid:heart-pulse >}} | Leseprozess erleben |
 |  {{< iconify fa-solid:brain >}} | Vorwissen aktivieren         |
 | {{< iconify fa6-solid:circle-question >}} | Wozu Lesediagnostik? |
 | {{< iconify fa6-solid:diagram-project >}} | Lesediagnostik (ELFE) selbst durchführen |
@@ -49,11 +50,61 @@ border: none !important;
 font-weight: normal !important;
 border: none !important;
 }
+
+#tbl-agenda .quarto-float-caption {
+  display: none !important; 
 </style>
 ```
 ::: footer
 {{< iconify academicons:open-materials >}} Folien cc-by {{< iconify academicons:creative-commons-by >}} unter Kurzlink
 :::
+
+
+# Intuitive Diagnostik
+
+## Intuitive Diagnostik {.smaller}
+::: columns
+::: {.column width="34%"}
+```{r}
+html_tag_audio <- function(file, type = c("wav")) {
+  type <- match.arg(type)
+  htmltools::tags$audio(
+    controls = "",
+    htmltools::tags$source(
+      src = file,
+      type = glue::glue("audio/{type}", type = type)
+    )
+  )
+}
+
+html_tag_audio("img/GLV.mp4", type = "wav")
+```
+
+![cc-by https://www.lesen.bayern.de/filby/ ](img/FilbyText.png){width=60%}
+:::
+
+::: {.column width="66%"}
+::: {style="font-size: .8em; line-height: 1em;"}
+1)  In einer Kleinfamilie leben Kinder ...
+    -   [x] ... mit ihren Eltern und Großeltern zusammen.
+    -   [ ] ... mit dem neuen Partner eines Elternteils zusammen.
+    -   [x] ... mit ihren Stiefgeschwistern zusammen.
+    -   [ ] ... mit ihren Eltern zusammen.
+2)  Was trifft auf Regenbogenfamilien zu?
+    -   [ ] Die Eltern sind zwei Väter oder zwei Mütter.
+    -   [x] Die Eltern leben mit den Großeltern zusammen.
+    -   [ ] Die Eltern können selbst keine Kinder bekommen.
+    -   [x] Die Eltern sind bunt zusammengewürfelt.
+3)  Wann hat ein Kind eine Stiefschwester oder einen Stiefbruder?
+    -   [ ] Wenn es in einer Familie mit Kind adoptiert wurde.
+    -   [x] Wenn mehrere Generationen zusammenleben.
+    -   [x] Wenn sich die Eltern getrennt haben.
+:::
+:::
+:::
+
+[**🧠-🧑‍🤝‍🧑-💬: Wie würden Sie die Lesekompetenz beschreiben und welche Förderung empfehlen?**]{.fragment}
+
 
 # Leseprozesse erleben
 
