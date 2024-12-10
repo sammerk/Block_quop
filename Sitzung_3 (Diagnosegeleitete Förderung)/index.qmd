@@ -68,9 +68,9 @@ Aufgabenstellung kommt im Laufe der Woche.
 
 
 ## Wdh. Leselernverläufe interpretieren {.center .smaller}
-> **Wie würden Sie diesen Leselernverläufe interpretieren? Welche Leseteilkompetenz sollte gezielt gefördert werden?**  
+> **Wie würden Sie diese Leselernverläufe interpretieren? Welche Leseteilkompetenz sollte gezielt gefördert werden?**  
 
-Lerntempoduett 🐌🐌/🚀🚀: Notieren Sie Ihre Interpretation und Ihren Fördervorschlag auf dem ausgeteilten Zettel und kommen Sie damit nach vorne, sobald Sie fertig sind. Tauschen Sie sich dann mit dem als nächstes nach vorne kommenden dazu aus. 
+Lerntempoduett 🐌🐌/🚀🚀: Notieren Sie Ihre Interpretation und Ihren Vorschlag der zu fördernen Teilkompetenz auf dem ausgeteilten Zettel und kommen Sie damit nach vorne, sobald Sie fertig sind. Tauschen Sie sich dann mit dem als nächstes nach vorne kommenden dazu aus. 
 
 ::: {style="text-align:center;"}
 ![Lesegenauigkeits- & Leseverständnisverlauf mit 68% Perzentilband](img/Wdh. Sitzung 3.png){width=40%}
@@ -90,11 +90,11 @@ Lerntempoduett 🐌🐌/🚀🚀: Notieren Sie Ihre Interpretation und Ihren Fö
 * Sichten Sie das Onlinematerial zu Ihrem Lesesport (Slalom 🛼/Sprint 🏃🏻‍♀️/Kanu 🛶)
 * Klären Sie offene Fragen dazu mit den Kommiliton:innen/dem Dozenten
 * Bereiten Sie sich darauf vor, 
-    * mit Ihrer Stammgruppe zunächst Ihre Leseportart zu trainieren und
+    * mit Ihrer Stammgruppe zunächst Ihre Lesesportart zu trainieren und
     * Ihrer Stammgruppe dann auf einer Metaebene die Besonderheiten Ihres Lesesports zu erklären
     
 #### Stammgruppenphase (20 Minuten)
-* Jede:r Expert:in trainiert die Stammgruppe in seiner:ihrer Leseportart
+* Jede:r Expert:in trainiert die Stammgruppe in seiner:ihrer Lesesportart
 * Jede:r Expert:in erklärt der Stammgruppe auf einer Metaebene die Besonderheiten Ihres Lesesports
 
 
