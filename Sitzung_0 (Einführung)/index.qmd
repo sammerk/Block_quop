@@ -143,18 +143,29 @@ Kommentar einer Lehrerin: "Das ist eine typische Verwechslung: Das Kind hat wahr
 
 # Organisatorisches {{< iconify fa6-solid:diagram-project >}}
 
-## Organisatorisches {.smaller}
+## Organisatorisches {.smaller .scrollable}
 
--   Ring-Seminar Gleser/Lunowa/Merk/Prinz
-    -   Sie bleiben im Raum - alle vier Wochen kommt eine neuer Dozent bzw. eine neue Dozentin
--   Jeder Dozent, jede Dozentin definiert eine Teilstudienleistung
--   Seminarmodus:
-    -   Ich biete:
-        -   Wenig Aufwand zwischen den Sitzungen
-        -   Kein Bulimierlernen auf Klausur
-    -   Ich erwarte:
-        -   Aufmerksamkeit in Sitzungen und zügig-konstruktive Mitarbeit
-        -   Kumulative Wissensstruktur erfordert kontinuierliche Arbeit
+- Ring-Seminar Gleser/Lunowa/Merk/Prinz
+    - Sie bleiben im Raum - alle vier Wochen kommt eine neuer Dozent bzw. eine neue Dozentin
+- Seminarmodus:
+    - Ich biete:
+        - Wenig Aufwand zwischen den Sitzungen
+        - Kein Bulimierlernen auf Klausur
+    - Ich erwarte:
+        - Aufmerksamkeit in Sitzungen und zügig-konstruktive Mitarbeit
+        - Kumulative Wissensstruktur erfordert kontinuierliche Arbeit
+- Jeder Dozent, jede Dozentin definiert eine Teilstudienleistung (—> insgesamt 4)
+    * Diese findet in Form eines Live-Studienleistung/Kurztests in der letzten Seminarsitzung eines Themenblocks statt und dauert ca. 20 Minuten. 
+    * Pro Kurztest werden 10 Punkte vergeben (—> insgesamt 40 Punkte)
+    * Für das Bestehen der Studienleistung sind 60% der Punkte ( —> also 24 Punkte) notwendig
+    * Der Kurztest kann nur in Präsenz im Seminar durchgeführt werden. 
+- Voraussetzung für die Verbuchung der Studienleistung ist eine aktive Teilnahme am Seminar
+    * Feststellung durch kleine digitale Aufgaben in den Sitzungen
+    * Wenn sie diese nicht bearbeiten, können Sie auch keine Studienleistung erbringen
+- In Sitzung 2 ist ein Text zu lesen. 
+    * Dieser Text ist ein schöner Text 💚
+    * Lesen Sie ihn wirklich
+    * Wir werden die Sitzung mit einem Quiz dazu starten
 
 # Grundbegriffe {{< iconify fa6-solid:pencil >}}
 
