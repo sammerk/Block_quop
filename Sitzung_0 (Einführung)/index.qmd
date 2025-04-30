@@ -1,0 +1,210 @@
+---
+title: Pädagogische Diagnostik, Förderung & Beratung
+subtitle: Sitzung 0 - Einführung
+author: Gleser/Lunowa/Merk/Prinz
+footer: Samuel Merk
+institute: Institut für Schul- und Unterrichtsentwicklung
+logo: img/ph-logo.svg
+picture: img/KA.jpeg
+date: today
+lang: de
+date-format: long
+format: rlille-revealjs
+lightbox: true
+bibliography: ../references.bib
+csl: ../apa.csl
+---
+
+## Überblick {.smaller .center}
+
+```{r }
+#| label: libraries
+#| echo: false
+
+# z.B. library(tidyverse)
+```
+
+|  {{< iconify fa-solid:question-circle >}} | Warum Diagnostik?         |
+|------------------------------------------:|:--------------------------|
+| {{< iconify fa6-solid:diagram-project >}} | Organisation des Seminars |
+|          {{< iconify fa6-solid:pencil >}} | Grundbegriffe             |
+|        {{< iconify fa6-solid:dumbbell >}} | Übung der Grundbegriffe   |
+
+: {#tbl-agenda tbl-colwidths="\[15,285\]"}
+
+```{=html}
+<!-- style the agenda table -->
+
+<style>
+#tbl-agenda table th {
+font-weight: normal !important;
+border: none !important;
+}
+
+#tbl-agenda table td {
+font-weight: normal !important;
+border: none !important;
+}
+</style>
+```
+::: footer
+{{< iconify academicons:open-materials >}} Folien cc-by {{< iconify academicons:creative-commons-by >}} unter Kurzlink
+:::
+
+# Warum Diagnostik {{< iconify fa-solid:question-circle >}}
+
+##  {.smaller}
+
+::: columns
+::: {.column width="34%"}
+```{r}
+html_tag_audio <- function(file, type = c("wav")) {
+  type <- match.arg(type)
+  htmltools::tags$audio(
+    controls = "",
+    htmltools::tags$source(
+      src = file,
+      type = glue::glue("audio/{type}", type = type)
+    )
+  )
+}
+
+html_tag_audio("img/Vorlesen.mp3", type = "wav")
+```
+
+:::
+
+::: {.column width="66%"}
+::: {style="font-size: .8em; line-height: 1em;"}
+1)  Der Streich geht ...
+    -   [ ] ... schief
+    -   [x] ... nicht schief
+    -   [ ] Es gibt keinen Streich
+2)  Mit wem wohnt Sie?
+    -   [ ] Mit anderen Kindern
+    -   [x] Mit 33 Wikingern in einem Dorf
+    -   [ ] Mit ihren Eltern
+3)  Welche Überschrift würde auch zu der Geschichte passen?
+    -   [ ] Die große Beutefahrt
+    -   [ ] Im neuen Drachenschiff
+    -   [x] Reingelegt!
+:::
+:::
+:::
+
+[**🧠-🧑‍🤝‍🧑-💬: Wie würden Sie die Lesekompetenz beschreiben und welche Förderung empfehlen?**]{.fragment}
+
+## Beispiel 1: Lesen
+
+> Kommentar einer Lehrerin: Das wirkt jetzt bisschen ungewöhnlich. Ich glaube sie versteht gut was sie gelesen hat, aber das Lesen an sich ist dafür relativ fehlerhaft und langsam. Der Sichtwortschatz kommt mir auch relativ klein vor. Ich würde dem Kind Lesesprints oder Stolperwörtersätze in die nächsten Wochenpläne schreiben.
+
+## Beispiel 2: Mathematik
+
+::: columns
+::: {.column width="40%"}
+Ein Kind rechnet:
+
+$$ 53 - 28 = 21$$
+:::
+
+::: {.column width="60%"}
+::: {.fragment fragment-index=2}
+Kommentar einer Lehrerin: "Das ist eine typische Verwechslung: Das Kind hat wahrscheinlich zuerst 53 - 30 gerechent und dann 2 subtrahiert (weil es ja eine Minusaufgabe ist) statt die 2 zu addieren. Ich rate dann immer zu einem zweiten Rechenweg. Hier vllt. von der 28 zur 30 und von der 30 zur 53.
+:::
+:::
+:::
+
+::: {.fragment fragment-index=1}
+**🧠-🧑‍🤝‍🧑-💬: Wie kommt das Kind auf das Ergebnis?**
+:::
+
+## {.center}
+### Diagnostik als Teil professioneller Kompetenz
+
+![Modell nach @baumert2006 und Kunter](img/topologie_baumert_kunter.png){width="55%" fig-align="left"}
+
+## Funktion von Kompetenz
+
+#### Für die Theorie-Praxis-Relationierung [@dewe1992]
+
+::: columns
+::: {.column width="50%"}
+![Transfer](img/Transfer.png){.lightbox width="80%" group="my-gallery" fig-align="left"}
+
+![Selektion](img/Selektion.png){.lightbox width="80%" group="my-gallery" fig-align="left"}
+:::
+
+::: {.column width="50%"}
+![Adaption](img/Adaption.png){.lightbox width="80%" group="my-gallery" fig-align="left"}
+
+![Enrichment](img/Enrichment.png){.lightbox width="80%" group="my-gallery" fig-align="left"}
+:::
+:::
+
+# Organisatorisches {{< iconify fa6-solid:diagram-project >}}
+
+## Organisatorisches {.smaller .scrollable}
+
+- Ring-Seminar Gleser/Lunowa/Merk/Prinz
+    - Sie bleiben im Raum - alle vier Wochen kommt eine neuer Dozent bzw. eine neue Dozentin
+- Seminarmodus:
+    - Ich biete:
+        - Wenig Aufwand zwischen den Sitzungen
+        - Kein Bulimierlernen auf Klausur
+    - Ich erwarte:
+        - Aufmerksamkeit in Sitzungen und zügig-konstruktive Mitarbeit
+        - Kumulative Wissensstruktur erfordert kontinuierliche Arbeit
+- Jeder Dozent, jede Dozentin definiert eine Teilstudienleistung (—> insgesamt 4)
+    * Diese findet in Form eines Live-Studienleistung/Kurztests in der letzten Seminarsitzung eines Themenblocks statt und dauert ca. 20 Minuten. 
+    * Pro Kurztest werden 10 Punkte vergeben (—> insgesamt 40 Punkte)
+    * Für das Bestehen der Studienleistung sind 60% der Punkte ( —> also 24 Punkte) notwendig
+    * Der Kurztest kann nur in Präsenz im Seminar durchgeführt werden. 
+- Voraussetzung für die Verbuchung der Studienleistung ist eine aktive Teilnahme am Seminar
+    * Feststellung durch kleine digitale Aufgaben in den Sitzungen
+    * Wenn sie diese nicht bearbeiten, können Sie auch keine Studienleistung erbringen
+- In Sitzung 2 ist ein Text zu lesen. 
+    * Dieser Text ist ein schöner Text 💚
+    * Lesen Sie ihn wirklich
+    * Wir werden die Sitzung mit einem Quiz dazu starten
+
+# Grundbegriffe {{< iconify fa6-solid:pencil >}}
+
+## Grundbegriffe {.smaller}
+
+-   **Diagnostik**: Kleber [-@kleber1992, S. 15] definiert Diagnostik allgemein als die »*methodische Erforschung der Merkmale eines Gegenstandes oder einer Person*«
+-   **Pädagogische Diagnostik**: *»\[...\] umfasst alle diagnostischen Tätigkeiten, durch die bei \[...\] Lernenden \[...\] Voraussetzungen und Bedingungen planmäßiger Lehr- und Lernprozesse ermittelt, Lernprozesse analysiert und Lernergebnisse festgestellt werden, um individuelles Lernen zu optimieren*« [@ingenkamp2008, S.13]
+
+> 🧑‍🤝‍🧑: 1) Identifizieren Sie Ihnen bekannte typische Vorgehensweisen in der Schule, die der Definition pädagogischer Diagnostik entsprechen. 2) Suchen Sie Beispiele für Diagnostiken in der Schule, die (eher) keine pädagogische Diagnostiken sind. 3) Gibt es theoretisch überhaupt pädagogische Diagnostiken die die Definiton der (allgemeinen) Diagnostik nach Kleber nicht erfüllen?
+
+## Bezugsnormen {.smaller}
+
+Neben der **Messung** schulischer Fähigkeiten stellt die **Bewertung** selbiger eine zentrale Herausforderung für LuL dar [@bohl2004]. Grundsätzlich wird dabei zwischen **formativem** und **summativem** Assessment unterschieden. Bei ersterem dient die Leistungsmessung der Ermittlung des Unterschieds zwischen Lernstand und Lernziel und der dadurch notwendigen nächsten Lernschritte [@schuetze2018].\
+Bei der summativen Leistungsbewertung wird typischerweise zwischen drei Bezugsnormen unterschieden:
+
+:::{#fig-bzn}
+![](img/Bezugsnormen.png){.lightbox width="30%" fig-align="left"}
+
+Siehe @merk2023b
+:::
+
+
+## Bezugsnormen {.smaller}
+
+Unter Bezugsnormen versteht man den ‚Standard‘, der zur Bewertung einer Leistung herangezogen wird [@heckhausen1974].
+
+-   Die **»soziale Bezugsnorm«** liegt vor, wenn das zu bewertende Ergebnis mit den Ergebnissen einer Vergleichsgruppe, die denselben Test durchlaufen hat, abgeglichen wird.\
+-   Die **»kriteriale Bezugnorm«** (auch ‚sachliche Bezugnorm‘; Rheinberg & Fries, @rheinberg2010a) legt a priori inhaltlich fest, was eine ‚gute‘ Leistung auszeichnet.\
+-   Die **»individuelle Bezugsnorm«** (auch ‚temporale‘, ‚intraindividuelle‘ oder ‚ipsative Bezugsnorm‘) vergleicht (wie die soziale Bezugsnorm) zur Bewertung einer Leistung diese ebenfalls mit anderen realen (empirisch gemessenen) Leistungen. Allerdings stammen jene Leistungen vom selben Merkmalsträger (Individuum).
+
+## Bezugsnormen
+- Die Notenvergabeverordnung Baden-Württemberg impliziert klar die Anwendung der kriterialen Bezugsnorm unter Berücksichtigung der individuellen Bezugsnorm in speziellen Fällen (z.B. Probeversetzung).
+- Die Anwendung der individuellen Bezugsnorm gilt jedoch als stärker motivations- und lernförderlich [@rheinberg2010a]
+- Lehrerinnen und Lehrer wenden in der Praxis wohl meist implizit eine Mischung von Bezugsnormen an. Dies senkt die Konstruktvalidität der Leistungsmessung [@merk2023b].
+
+## Übung Bezugsnormen {.center}
+> Bearbeiten Sie unter  
+**[https://sammerk.github.io/aufgaben-book/messtheorie.html](https://sammerk.github.io/aufgaben-book/messtheorie.html)**   
+die Aufgabe  
+**»Bezugnormen in Aussagen erkennen«**
+
+## References {.scrollable}

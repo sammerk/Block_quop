@@ -1,0 +1,33 @@
+---
+format: docx
+params:
+  perzentil: 63
+  verlauf: 10
+  studi: Max Mustermann
+---
+
+```{r}
+#| echo: FALSE
+#| results: "hide"
+
+perzentil <- params$perzentil
+verlauf <- params$verlauf
+studi <- params$studi
+image_path <- paste0("Abb_Leselernverläufe/LV_SL", verlauf, ".png")
+```
+
+
+# Studienleistung
+
+## Diagnostik
+In folgender Abbildung finden Sie Leselernverläufe einer Schülerin bzw. eines Schülers, dargestellt als Messwerte der Lesegenauigkeit, Leseflüssigkeit und Leseverständnis vor repräsentativen `{r} perzentil`% Perzentilbändern.
+
+![Leselernverlauf](`{r} image_path`)
+
+## Aufgabe
+1. Beschreiben Sie die Leselernverläufe der Schülerin bzw. des Schülers unter Verwendung der individuellen **und** der sozialen Bezugsnorm.
+2. Erläutern Sie, welche diagnostischen Schlüsse Sie aus den Leselernverläufen ziehen können.
+
+----
+
+## Lösung
