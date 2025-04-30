@@ -132,9 +132,26 @@ Der Arbeitsauftrag für eine Studienleistung könnte wie folgt aussehen:
 
 > Sie führen seit einem Schuljahr mit Ihrer zweiten Klasse Lernverlaufsdiagnostik zur Lesegenauigkeit, Leseflüssigkeit und zum Leseverständnis durch. Die Folgenden Abbildungen zeigen die längsschnittlichen Ergebniss der Klasse. **Beschreiben** und **bewerten** Sie die Ergebnisse und machen Sie evidenzbasierte Vorschläge zur differenzierten Leseförderung.
 
-## Übung für die Studienleistungen
+## Übung für die Studienleistungen {.smaller}
+Üben Sie für die ersten beiden Teile der Studienleistung, indem Sie eine der folgenden Dateien öffnen und die Arbeitsaufträge dort durchführen.
 
+:::: {.columns}
 
+::: {.column width='50%'}
+* [Übung 1](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_1.docx)
+* [Übung 2](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_2.docx)
+* [Übung 3](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_3.docx)
+* [Übung 4](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_4.docx)
+:::
+
+::: {.column width='50%'}
+* [Übung 5](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_5.docx)
+* [Übung 6](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_6.docx)
+* [Übung 7](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_7.docx)
+* [Übung 8](https://github.com/sammerk/Block_quop/raw/refs/heads/master/Studienleistungen_an/Studienleistung_8.docx)
+:::
+
+::::
 
 
 ## References {.scrollable}
