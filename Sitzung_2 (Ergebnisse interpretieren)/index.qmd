@@ -153,7 +153,7 @@ Der Arbeitsauftrag für eine Studienleistung könnte wie folgt aussehen:
 
 ::::
 
-[Musterlösung zu einer Beispielaufgabe]("Studienleistung_19_Musterloesung.pdf")
+[Musterlösung zu einer Beispielaufgabe 🔗](Studienleistung_19_Musterloesung.pdf)
 
 ## References {.scrollable}
 
