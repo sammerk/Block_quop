@@ -32,7 +32,6 @@ csl: ../apa.csl
 |  {{< iconify fa-solid:brain >}} | Vorwissen aktivieren         |
 | {{< iconify fa6-solid:circle-question >}} | Wozu Lesediagnostik? |
 | {{< iconify fa6-solid:diagram-project >}} | Lesediagnostik (ELFE) selbst durchführen |
-| {{< iconify fa6-solid:pencil >}} | Lesekompetenzmodelle   |
 | {{< iconify fa6-solid:square-root-variable >}} | Exkurs: »Praktische Theorie«   |
 
 : {#tbl-agenda tbl-colwidths="\[15,285\]"}
@@ -122,20 +121,12 @@ html_tag_audio("img/GLV.mp4", type = "wav")
 
 ::::
 
-
-
-
-
-
-
 # Vorwissen aktivieren {{< iconify fa-solid:brain >}}  
 
-## Vorwissen aktivieren
-Think-Pair-Share 🧠-🧑‍🤝‍🧑-💬 mit dem:der Sitznachbar:in
+## Lesekompetenzmodelle 
+@lenhard2019 geht für die Konstruktion des ELFE von folgendem Prozessmodell des Leseverstehens aus:
 
-* Woran würden Sie als Lehrkraft eine gute Leser:in erkennen?
-* Wie kann Lesekompetenz objektiv, reliabel und konstruktvalide erfasst werden? 
-    * Wie würden Sie diese Lesekompetenz quantifizieren?
+![](img/Leseverstehensprozesse.jpg){width="40%" fig-align="center" .lightbox }
     
 # Wozu Lesediagnostik {{< iconify fa-solid:circle-question >}}  
 
@@ -194,11 +185,6 @@ Ordnen Sie die folgenden Anliegen einer geeigneten Form von Diagnostik zu:
 
 ## ELFE kennenlernen {.center}
 > Bitte bearbeiten Sie die ausgeteilten Testhefte.
-
-## Das Modell hinter dem ELFE 
-@lenhard2019 geht für die Konstruktion des ELFE von folgendem Prozessmodell des Leseverstehens aus:
-
-![](img/Leseverstehensprozesse.jpg){width="40%" fig-align="center" .lightbox }
 
 
 # Exkurs: Praktische Theorie {{< iconify fa-solid:square-root-variable >}}  
