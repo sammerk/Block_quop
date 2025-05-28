@@ -75,22 +75,15 @@ Think-Pair-Share 🧠-🧑‍🤝‍🧑-💬 mit dem:der Sitznachbar:in
 
 
 ## Lernverläufe interpretieren {.smaller}
+:::: {style='font-size: .8em;'}
 Mit Perzentilbändern können **Verläufe**
 
-:::: {.columns}
+1) *[unabhängig von]{style="color:#099268"} [der absoluten Ausprägung]{style="color:#f08c00"}* als »über-/unterdurchschnittlich« identifiziert werden. Der grüne Verlauf und der der orangene Verlauf sind beide **durchschnittliche Verläufe** entsprechend ihrem Ausgangsniveau.
 
-::: {.column width='50%'}
-1) *[unabhängig von]{style="color:#099268"} [der absoluten Ausprägung]{style="color:#f08c00"}* als »über-/unterdurchschnittlich« identifiziert werden
-:::
-
-::: {.column width='50%'}
-2) *[unabhängig von]{style="color:#1971c2"} [der Skala]{style="color:#099268"}* absolut und in ihrer Entwicklung verglichen werden
-:::
-
+2) *[unabhängig von]{style="color:#1971c2"} [der Skala]{style="color:#099268"}* absolut und in ihrer Entwicklung verglichen werden. Der blaue und der grüne Verlauf können jeweils als durchschnittlich mit durchschnittlicher Änderung interpretiert werden, obwohl sie völlig unterschiedliche Messwerte und sogar unterschiedliche Messgrößen zeigen.
 ::::
 
-
-<center>![](img/Verlaeufe_Perzentile.png){.lightbox width=60%} </center>
+<center>![](img/Verlaeufe_Perzentile.png){.lightbox width=50%} </center>
    
 
 
