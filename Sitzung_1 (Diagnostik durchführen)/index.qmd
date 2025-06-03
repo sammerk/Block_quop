@@ -1,6 +1,6 @@
 ---
 title: Pädagogische Diagnostik, Förderung & Beratung
-subtitle: Sitzung 1 - Diagnostik durchführen
+subtitle: Sitzung 1 - Lesediagnostik durchführen
 author: Gleser/Lunowa/Merk/Prinz
 footer: Samuel Merk
 institute: Institut für Schul- und Unterrichtsentwicklung
@@ -26,15 +26,15 @@ csl: ../apa.csl
 # z.B. library(tidyverse)
 ```
 
-| {{< iconify fa6-solid:stethoscope >}} | Intuitive Diagnostik|
+| {{< iconify fa6-solid:brain >}} | Intuitive Diagnostik|
 |------------------------------------------:|:--------------------------|
-| {{< iconify fa6-solid:heart-pulse >}} | Leseprozess erleben |
-|  {{< iconify fa-solid:brain >}} | Vorwissen aktivieren         |
 | {{< iconify fa6-solid:circle-question >}} | Wozu Lesediagnostik? |
-| {{< iconify fa6-solid:diagram-project >}} | Lesediagnostik (ELFE) selbst durchführen |
+|  {{< iconify fa-solid:stethoscope >}} | Lesen diagnostizieren         |
 | {{< iconify fa6-solid:square-root-variable >}} | Exkurs: »Praktische Theorie«   |
 
 : {#tbl-agenda tbl-colwidths="\[15,285\]"}
+
+<!--| {{< iconify fa6-solid:heart-pulse >}} | Leseprozess erleben |-->
 
 ```{=html}
 <!-- style the agenda table -->
@@ -104,7 +104,7 @@ html_tag_audio("img/GLV.mp4", type = "wav")
 
 [**🧠-🧑‍🤝‍🧑-💬: Wie würden Sie die Lesekompetenz beschreiben und welche Förderung empfehlen?**]{.fragment}
 
-
+<!--
 # Leseprozesse erleben
 
 ## Leseprozesse erleben {.center}
@@ -120,14 +120,10 @@ html_tag_audio("img/GLV.mp4", type = "wav")
 :::
 
 ::::
+-->
 
-# Vorwissen aktivieren {{< iconify fa-solid:brain >}}  
 
-## Lesekompetenzmodelle 
-@lenhard2019 geht für die Konstruktion des ELFE von folgendem Prozessmodell des Leseverstehens aus:
 
-![](img/Leseverstehensprozesse.jpg){width="40%" fig-align="center" .lightbox }
-    
 # Wozu Lesediagnostik {{< iconify fa-solid:circle-question >}}  
 
 ## Wozu Lesediagnostik? (Aufgabe) {.smaller}
@@ -181,11 +177,36 @@ Ordnen Sie die folgenden Anliegen einer geeigneten Form von Diagnostik zu:
 * »Ich möchte wissen, ob ob das Lesekompetenzmodell von Rosebrock & Nix sich in der Realität wiederfindet« **➡️ Grundlagenforschung**
 * »Ich möchte die Leseleistung meiner Schüler:innen fair - also objektiv, reliabel und konstruktvalide - benoten« **➡️ Leistungsdiagnostik**
 
-# Lesediagnostik (ELFE) selbst durchführen {{< iconify fa-solid:diagram-project >}} 
+# Lesen diagnostizieren {{< iconify fa-solid:brain >}}  
 
-## ELFE kennenlernen {.center}
-> Bitte bearbeiten Sie die ausgeteilten Testhefte.
+## Lesen diagnostizieren {.smaller}
+:::: {.columns}
 
+::: {.column width='40%'}
+Bevor man eine Variable erfassen kann, gilt es diese möglichst klar zu operationalsieren [@doering2016] - nur so kann es zu einer konstruktvaliden [@cronbach1955] Erfassung kommen. Im Falle der Lesekompetenz wird oft auf das Modell von Rosebrock und Nix  -@lenhard2019 zurückgegriffen.
+
+![](img/Leseverstehensprozesse.jpg){width="40%" fig-align="center" .lightbox }
+:::
+
+::: {.column width='50%'}
+Typischerweise [@lenhard2019] werden oft operationalisiert:
+
+* **Phonologische Bewusstheit** (Silben und Laute erkennen und manipulieren)
+* **Lesegenauigkeit** (Anteil richtig gelesener oder richtig korrigierter Wörter zu gelesenen Wörtern)
+* **Leseflüssigkeit** 
+    * Anzahl richtig gelesener Wörter minus falsch gelesener Wörter geteilt pro Minute
+    * Prosodie
+* **Leseverständnis** (Propositions- und Kohärenzbildung, Inferenzen)    
+:::
+
+::::
+
+## Diagnoseinstrumente {.smaller}
+Es gibt eine sehr große Vielfalt an Instrumenten zur Messung der Lesekompetenz. Sie unterscheiden sich im Fokus (was wird gemessen), dem Verfahren (Gruppen- vs. Einzeltestung, KI-Einsatz, etc.) und in ihrer Güte (Objektivität, Relibilität, Konstruktvalidität).
+
+Insbesondere die digitale Leseverlaufsdiagnostik hat in den letzten Jahren Verbreitung gefunden [@blumenthal2022]. Derzeit kommen in Baden-Württemberg vorallem die Tools [levumi](https://www.levumi.de)  (nicht proprietär {{< iconify cib:creative-commons-nc-eu >}}) und [quop](www.quop.de) (proprietär) zum Einsatz.
+
+Das Projekt BISS-Transfer bietet eine kuratierte Liste von Diagnostik Tools mit redaktioneller Beschreibung der Schwerpunkte sowie Vor- und Nachteile.
 
 # Exkurs: Praktische Theorie {{< iconify fa-solid:square-root-variable >}}  
 ## »Praktische« Theorie {.smaller .scrollable}
@@ -197,20 +218,6 @@ Ordnen Sie die folgenden Anliegen einer geeigneten Form von Diagnostik zu:
 Überlegungen wie obige zur Struktur von Lesekompetenz, werden von Studierenden oft als »theoretisch« wahrgenommen [@vogel2022]. Dies ist insofern zutreffend, als dass Entitäten wie »Lesegenauigkeit« oder »Leseverständnis« nicht real existieren oder zumindest nicht manifest sind. Dennoch lässt sich argumentieren, dass solch »theoretisches Wissen« sehr »praktisch« im Sinne von »heuristisch« (bildungssprachl. *zur Problemlösung anleitend*) ist: Nimmt Lehrkraft A (implizit oder explizit) die links abgebildete, hierarchische Kompetenzstruktur an, wird sie anders auf ein Kind mit mangelndem Lese**verständnis** reagieren als eine Lehrkraft die die rechts abgebildete Netzwerkstruktur annimmt:  
 Lehrkraft A wird vermutlich zunächst prüfen ob das mangelnde Lese**verständnis** auf mangelnde Lese**geschwindigkeit** und/oder -**genauigkeit** zurückführen ist, um dann die hierarchieniedrigste fehlende Fähigkeit zu fördern, während Lehrkraft B ja die Komponenten als unabhängig betrachtet und deshalb direkt das Leseverständnis zu fördern versucht. Dies ist aber zum Scheitern verurteilt, wenn die Komponenten tatsächlich hierarchisch sind und Lesegeschwindigkeit und/oder -genauigkeit nicht hinreichend ausgeprägt sind.  
 
-## Vertiefung Leseverstehen {.smaller .center}
-Verschaffen Sie sich zu 3️⃣ 
-einen Überblick über eine Zusammenfassung von @lenhard2019 auf [https://bit.ly/merk201](https://bit.ly/merk201) bis »*Prozesse auf Textebene*«. Teilen Sie auf, wer die Abschnitte 
-
-* Modelle der visuellen Worterkennung
-* Einfluss von Bedeutung und Kontext auf die Worterkennung
-* Prozesse auf Satzebene
-
-intensiviert liest und elaboriert.
-
-> Stellen Sie sich anschließend Fragen zu den verteilten Textteilen
-
-
-## 
 
 
 ## References {.scrollable}
