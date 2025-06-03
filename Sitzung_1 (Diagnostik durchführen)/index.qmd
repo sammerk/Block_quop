@@ -183,7 +183,7 @@ Ordnen Sie die folgenden Anliegen einer geeigneten Form von Diagnostik zu:
 :::: {.columns}
 
 ::: {.column width='40%'}
-Bevor man eine Variable erfassen kann, gilt es diese möglichst klar zu operationalsieren [@doering2016] - nur so kann es zu einer konstruktvaliden [@cronbach1955] Erfassung kommen. Im Falle der Lesekompetenz wird oft auf das Modell von Rosebrock und Nix  -@lenhard2019 zurückgegriffen.
+Bevor man eine Variable erfassen kann, gilt es diese möglichst klar zu operationalisieren [@doering2016] - nur so kann es zu einer konstruktvaliden [@cronbach1955] Erfassung kommen. Im Falle der Lesekompetenz wird oft auf das Modell von Rosebrock und Nix  -@lenhard2019 zurückgegriffen.
 
 ![](img/Leseverstehensprozesse.jpg){width="40%" fig-align="center" .lightbox }
 :::
