@@ -194,7 +194,7 @@ Typischerweise [@lenhard2019] werden oft operationalisiert:
 * **Phonologische Bewusstheit** (Silben und Laute erkennen und manipulieren)
 * **Lesegenauigkeit** (Anteil richtig gelesener oder richtig korrigierter Wörter zu gelesenen Wörtern)
 * **Leseflüssigkeit** 
-    * Anzahl richtig gelesener Wörter minus falsch gelesener Wörter geteilt pro Minute
+    * Anzahl richtig gelesener Wörter minus falsch gelesener Wörter pro Minute
     * Prosodie
 * **Leseverständnis** (Propositions- und Kohärenzbildung, Inferenzen)    
 :::
@@ -202,11 +202,11 @@ Typischerweise [@lenhard2019] werden oft operationalisiert:
 ::::
 
 ## Diagnoseinstrumente {.smaller}
-Es gibt eine sehr große Vielfalt an Instrumenten zur Messung der Lesekompetenz. Sie unterscheiden sich im Fokus (was wird gemessen), dem Verfahren (Gruppen- vs. Einzeltestung, KI-Einsatz, etc.) und in ihrer Güte (Objektivität, Relibilität, Konstruktvalidität).
+Es gibt eine sehr **große Vielfalt** an Instrumenten zur Messung der Lesekompetenz. Sie unterscheiden sich im **Fokus** (was wird gemessen), dem **Verfahren** (Gruppen- vs. Einzeltestung, KI-Einsatz, etc.) und in ihrer Güte (Objektivität, Relibilität, Konstruktvalidität).
 
-Insbesondere die digitale Leseverlaufsdiagnostik hat in den letzten Jahren Verbreitung gefunden [@blumenthal2022]. Derzeit kommen in Baden-Württemberg vorallem die Tools [levumi](https://www.levumi.de)  (nicht proprietär {{< iconify cib:creative-commons-nc-eu >}}) und [quop](www.quop.de) (proprietär) zum Einsatz.
+Insbesondere die **digitale Leseverlaufsdiagnostik** hat in den letzten Jahren Verbreitung gefunden [@blumenthal2022]. Derzeit kommen in Baden-Württemberg vorallem die Tools [levumi](https://www.levumi.de)  (nicht proprietär {{< iconify cib:creative-commons-nc-eu >}}) und [quop](www.quop.de) (proprietär) zum Einsatz.
 
-Das Projekt BISS-Transfer bietet eine kuratierte Liste von Diagnostik Tools mit redaktioneller Beschreibung der Schwerpunkte sowie Vor- und Nachteile.
+Das Projekt BISS-Transfer bietet eine kuratierte Liste von Diagnostik-Tools mit redaktioneller Beschreibung der Schwerpunkte sowie Vor- und Nachteile.
 
 # Exkurs: Praktische Theorie {{< iconify fa-solid:square-root-variable >}}  
 ## »Praktische« Theorie {.smaller .scrollable}
